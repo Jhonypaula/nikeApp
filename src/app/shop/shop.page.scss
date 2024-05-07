@@ -1,0 +1,186 @@
+.menu {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 34px;
+  left: 40px;
+  padding: 11px 5.5px 11px 5.5px;
+  gap: 0px;
+  opacity: 0px;
+}
+.nike2 {
+  position: absolute;
+  width: 86.67px;
+  height: 35px;
+  top: 22px;
+  left: 171px;
+  gap: 0px;
+  opacity: 0px;
+}
+.user {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 40px;
+  left: 345px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user img {
+  object-fit: fill;
+}
+.square1 {
+  position: absolute;
+  background-color: #fff05e;
+  width: 116px;
+  height: 127px;
+  top: 120px;
+  left: 15px;
+  gap: 0px;
+  border-radius: 16px 16px 16px 16px;
+  opacity: 0px;
+}
+.square2 {
+  position: absolute;
+  background: #e1e0e0;
+  width: 116px;
+  height: 127px;
+  top: 120px;
+  left: 156px;
+  gap: 0px;
+  border-radius: 16px 16px 16px 16px;
+  opacity: 0px;
+}
+.square3 {
+  position: absolute;
+  background: #e1e0e0;
+  width: 116px;
+  height: 127px;
+  top: 120px;
+  left: 295px;
+  gap: 0px;
+  border-radius: 16px 16px 16px 16px;
+  opacity: 0px;
+}
+.tenis1-container {
+  position: absolute;
+  top: 150px;
+  left: -10px;
+  z-index: 2;
+  transform: rotate(-19.92deg);
+}
+.tenis1 {
+  position: absolute;
+  width: 125px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+.tenis2-container {
+  position: absolute;
+  top: 140px;
+  left: 130px;
+  z-index: 2;
+  transform: rotate(-19.6deg);
+}
+.tenis2 {
+  position: absolute;
+  width: 125px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+.tenis3-container {
+  position: absolute;
+  top: 140px;
+  left: 270px;
+  z-index: 2;
+  transform: rotate(-19.6deg);
+}
+.tenis3 {
+  position: absolute;
+  width: 125px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+.tenis-central-container {
+  position: absolute;
+  top: 33%;
+  /*left: 20%;*/
+  z-index: 2;
+  transform: rotate(-19.92deg);
+}
+.tenis-central {
+  position: absolute;
+  width: 320px;
+  height: 195.1px;
+  gap: 0px;
+  opacity: 0px;
+}
+.title-3 {
+  position: absolute;
+  width: 330px;
+  height: 38px;
+  top: 625px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+}
+h2 {
+  font-size: 32px;
+}
+.title-4 {
+  position: absolute;
+  width: 368px;
+  height: 31px;
+  top: 673px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 700;
+  line-height: 34.55px;
+  text-align: left;
+}
+h3 {
+  font-family: Istok Web;
+  font-size: 24px;
+  font-weight: bold;
+  color: #144273;
+}
+.subtitle {
+  position: absolute;
+  width: 368px;
+  height: 70px;
+  top: 714px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: left;
+}
+p {
+  font-size: 14px;
+  color: #144273;
+}
+.subtitle-2 {
+  position: absolute;
+  width: 116px;
+  height: 31px;
+  top: 791px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 700;
+  line-height: 34.55px;
+  text-align: left;
+}
+#Preço {
+  font-size: 24px;
+  color: #144273;
+}

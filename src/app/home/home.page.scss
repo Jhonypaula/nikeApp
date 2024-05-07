@@ -1,0 +1,122 @@
+ion-content {
+  --background: rgb(17,153,142);
+  --background: linear-gradient(167.55deg, #11998E -1.54%, #38EF7D 110.94%);
+   
+
+}
+
+h1{
+  width: 322px;
+  height: 100px;
+  top: 463px;
+  left: 27px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.nike-logo{
+  position: absolute;
+  width: 87px;
+  height: 35px;
+  top: 35px;
+  left: 27px;
+  opacity: 0px;
+
+  
+}
+.tenis-container {
+  position: absolute;
+  top: 200px;
+  left: -50px;
+  z-index: 2;
+  transform: rotate(-19.92deg);
+  
+}
+
+.tenis-nike1 {
+  position: absolute;
+  width: 404.61px;
+  height: 253.38px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.elipse1{
+  position: relative;
+  width: 207px;
+  height: 207px;
+  top: 245px;
+  gap: 0px;
+  opacity: 0px;
+  background: radial-gradient(circle, rgb(255, 222, 136, 0.75), rgba(255, 222, 136, 0));
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.elipse2{
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  position: absolute;
+  width: 221px;
+  height: 221px;
+  top: 52px;
+  left: 260px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+  filter: blur(10px);
+}
+
+.title-1{
+  position: absolute;
+  width: 322px;
+  height: 100px;
+  top: 463px;
+  left: 27px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.title-2{
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  top: 564px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.subtitle-1{
+  position: absolute;
+  width: 368px;
+  height: 116px;
+  top: 629px;
+  left: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.botao {
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center;
+  width: 240px;
+  height: 81px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  background-color: #F2C94C;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 785px; 
+  left: 84px; 
+}
+
+p {
+  margin: 0;
+}
