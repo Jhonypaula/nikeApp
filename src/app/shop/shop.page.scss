@@ -1,4 +1,16 @@
-.menu {
+h1,
+h2 {
+  font-family: Holtwood One SC;
+}
+h3,
+h4 {
+  font-family: Istok Web;
+}
+p {
+  font-family: Istok Web;
+}
+
+.menu-section {
   position: absolute;
   width: 55px;
   height: 55px;
@@ -8,7 +20,7 @@
   gap: 0px;
   opacity: 0px;
 }
-.nike2 {
+.brand-logo {
   position: absolute;
   width: 86.67px;
   height: 35px;
@@ -17,7 +29,7 @@
   gap: 0px;
   opacity: 0px;
 }
-.user {
+.user-section {
   position: absolute;
   width: 44px;
   height: 44px;
@@ -27,10 +39,10 @@
   overflow: hidden;
 }
 
-.user img {
+.user-section img {
   object-fit: fill;
 }
-.square1 {
+.primary-square {
   position: absolute;
   background-color: #fff05e;
   width: 116px;
@@ -41,7 +53,7 @@
   border-radius: 16px 16px 16px 16px;
   opacity: 0px;
 }
-.square2 {
+.second-square {
   position: absolute;
   background: #e1e0e0;
   width: 116px;
@@ -52,7 +64,7 @@
   border-radius: 16px 16px 16px 16px;
   opacity: 0px;
 }
-.square3 {
+.tertiary-square {
   position: absolute;
   background: #e1e0e0;
   width: 116px;
@@ -63,78 +75,77 @@
   border-radius: 16px 16px 16px 16px;
   opacity: 0px;
 }
-.tenis1-container {
+.shoe-container-primary {
   position: absolute;
   top: 150px;
   left: -10px;
   z-index: 2;
   transform: rotate(-19.92deg);
 }
-.tenis1 {
+.primary-shoe-section {
   position: absolute;
   width: 125px;
   height: 80px;
   gap: 0px;
   opacity: 0px;
 }
-.tenis2-container {
+.shoe-container-secondary {
   position: absolute;
   top: 140px;
   left: 130px;
   z-index: 2;
   transform: rotate(-19.6deg);
 }
-.tenis2 {
+.secondary-shoe-section {
   position: absolute;
   width: 125px;
   height: 80px;
   gap: 0px;
   opacity: 0px;
 }
-.tenis3-container {
+.shoe-container-tertiary {
   position: absolute;
   top: 140px;
   left: 270px;
   z-index: 2;
   transform: rotate(-19.6deg);
 }
-.tenis3 {
+.tertiary-shoe-section {
   position: absolute;
   width: 125px;
   height: 80px;
   gap: 0px;
   opacity: 0px;
 }
-.tenis-central-container {
+.shoe-central-container {
   position: absolute;
   top: 33%;
-  /*left: 20%;*/
   z-index: 2;
   transform: rotate(-19.92deg);
 }
-.tenis-central {
+.central-shoe-section {
   position: absolute;
   width: 320px;
   height: 195.1px;
   gap: 0px;
   opacity: 0px;
 }
-.title-3 {
+.title-section {
   position: absolute;
-  width: 330px;
-  height: 38px;
   top: 625px;
   left: 20px;
   gap: 0px;
   opacity: 0px;
+}
+#main-title {
+  width: 330px;
+  height: 38px;
+  font-size: 32px;
   font-weight: 400;
   line-height: 50px;
-  text-align: left;
+  color: #144273;
 }
-h2 {
-  font-size: 32px;
-}
-.title-4 {
+.subtitle-section {
   position: absolute;
   width: 368px;
   height: 31px;
@@ -146,13 +157,13 @@ h2 {
   line-height: 34.55px;
   text-align: left;
 }
-h3 {
-  font-family: Istok Web;
+#main-subtitle {
   font-size: 24px;
+  line-height: 34.55px;
   font-weight: bold;
   color: #144273;
 }
-.subtitle {
+.description-section {
   position: absolute;
   width: 368px;
   height: 70px;
@@ -164,11 +175,13 @@ h3 {
   line-height: 22px;
   text-align: left;
 }
-p {
+#main-description {
   font-size: 14px;
   color: #144273;
+  font-weight: bold;
+  line-height: 1.2;
 }
-.subtitle-2 {
+.price-section {
   position: absolute;
   width: 116px;
   height: 31px;
@@ -180,7 +193,125 @@ p {
   line-height: 34.55px;
   text-align: left;
 }
-#Preço {
+#main-price {
+  font-family: Istok Web;
   font-size: 24px;
   color: #144273;
+  font-weight: 700;
+  line-height: 34.55px;
+}
+.pricing-container {
+  position: absolute;
+  width: 118px;
+  height: 50px;
+  gap: 0px;
+  opacity: 0px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  top: 822px;
+  left: 20px;
+}
+#main-pricing {
+  width: 118px;
+  height: 50px;
+  font-size: 30px;
+  color: #144273;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+}
+
+.primary-circle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin-top: 839px;
+  left: 292px;
+  gap: 0px;
+  opacity: 1;
+  z-index: 1;
+  background: rgba(20, 66, 115, 1);
+  border-radius: 50%;
+}
+
+.second-circle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 839px;
+  left: 363px;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 1;
+  background: linear-gradient(180deg, #11998e 0%, #38ef7d 100%);
+}
+
+//NÃO CONSEGUI INTRODUZIR
+.tertiary-circle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 843px;
+  left: 373px;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 2;
+  background: rgba(255, 240, 94, 1);
+}
+
+.primary-elipse {
+  position: absolute;
+  width: 38px;
+  height: 16px;
+  top: 869px;
+  left: 367px;
+  opacity: 1;
+  border-radius: 50%;
+  background: rgba(58, 58, 58, 0.5);
+  filter: blur(3px);
+}
+.second-elipse {
+  position: absolute;
+  width: 38px;
+  height: 16px;
+  top: 869px;
+  left: 297px;
+  opacity: 1;
+  border-radius: 50%;
+  background: rgba(58, 58, 58, 0.5);
+  filter: blur(3px);
+}
+.teritiary-elipse {
+  position: absolute;
+  width: 284.91px;
+  height: 64.88px;
+  top: px;
+  left: 90.05px;
+  opacity: 1;
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+  transform: rotate(19.23deg);
+}
+
+.share-logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 847px;
+  left: 303px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.shopping-bag-logo {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 847px;
+  left: 374px;
+  opacity: 1;
+  z-index: 2;
 }

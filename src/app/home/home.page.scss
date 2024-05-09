@@ -1,40 +1,25 @@
 ion-content {
-  --background: rgb(17,153,142);
-  --background: linear-gradient(167.55deg, #11998E -1.54%, #38EF7D 110.94%);
-   
-
+  --background: rgb(17, 153, 142);
+  --background: linear-gradient(167.55deg, #11998e -1.54%, #38ef7d 110.94%);
 }
 
-h1{
-  width: 322px;
-  height: 100px;
-  top: 463px;
-  left: 27px;
-  gap: 0px;
-  opacity: 0px;
-
-}
-
-.nike-logo{
+.brand-logo {
   position: absolute;
   width: 87px;
   height: 35px;
   top: 35px;
   left: 27px;
   opacity: 0px;
-
-  
 }
-.tenis-container {
+.shoe-container {
   position: absolute;
   top: 200px;
   left: -50px;
   z-index: 2;
   transform: rotate(-19.92deg);
-  
 }
 
-.tenis-nike1 {
+.nike-shoe {
   position: absolute;
   width: 404.61px;
   height: 253.38px;
@@ -42,20 +27,28 @@ h1{
   opacity: 0px;
 }
 
-.elipse1{
+.primary-ellipse {
   position: relative;
   width: 207px;
   height: 207px;
   top: 245px;
   gap: 0px;
   opacity: 0px;
-  background: radial-gradient(circle, rgb(255, 222, 136, 0.75), rgba(255, 222, 136, 0));
+  background: radial-gradient(
+    circle,
+    rgb(255, 222, 136, 0.85),
+    rgba(255, 222, 136, 0)
+  );
   border-radius: 50%;
-  filter: blur(10px);
+  filter: blur(40px);
 }
 
-.elipse2{
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+.second-ellipse {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
   position: absolute;
   width: 221px;
   height: 221px;
@@ -67,54 +60,74 @@ h1{
   filter: blur(10px);
 }
 
-.title-1{
+.title-section {
   position: absolute;
-  width: 322px;
-  height: 100px;
   top: 463px;
   left: 27px;
   gap: 0px;
   opacity: 0px;
 }
 
-.title-2{
+#main-title {
+  width: 322px;
+  height: 100px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #144273;
+}
+
+.subtitle-section {
   position: absolute;
-  width: 140px;
-  height: 50px;
   top: 564px;
   left: 30px;
   gap: 0px;
   opacity: 0px;
 }
+#main-subtitle {
+  width: 140px;
+  height: 50px;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #ffffff;
+}
 
-.subtitle-1{
+.description-section {
   position: absolute;
-  width: 368px;
-  height: 116px;
   top: 629px;
   left: 28px;
   gap: 0px;
   opacity: 0px;
 }
+#main-description {
+  width: 368px;
+  height: 116px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
 
-.botao {
-  display: inline-flex; 
-  align-items: center; 
+.button-section {
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
   width: 240px;
   height: 81px;
+  text-decoration: none;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
   border: none;
   border-radius: 50px;
-  background-color: #F2C94C;
+  background-color: #f2c94c;
   color: white;
   cursor: pointer;
   position: absolute;
-  top: 785px; 
-  left: 84px; 
+  top: 785px;
+  left: 84px;
 }
 
 p {
